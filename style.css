@@ -34,10 +34,6 @@
     width: 640px;
     height: 16px;
     padding: 50px 30px;
-    -webkit-transition:-webkit-transition 1.2s ease-in-out;
-    transition: -webkit-transform 1.2s ease-in-out;
-    transition: transform 1.2s ease-in-out;
-    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
 
 h2{
@@ -125,14 +121,14 @@ button{
     height: 40px;
 }
 
-.sub{
+.sub-cont{
     overflow: hidden;
-    position: absolute:
+    position: absolute;
     left: 640px;
     top: 0;
     width: 900px;
-    height: 100%;
-    padding-left: 260px; 
+    height: 550%;
+    padding-left: 260px;
     background: #fff;
 }
 
@@ -145,4 +141,6 @@ button{
     width: 260px;
     height: 100%;
     padding-top: 360px;
+    background-image: url(image/fy.jpg);
+    background-size: cover;
 }
